@@ -1,0 +1,10 @@
+<h1> ALL THE PIZZAS</h1>
+
+<%  @pizzas.each do |pizza| %>
+
+<p>Name: <%= pizza.pretty_name %> </p>
+<p>Order: <%= pizza.quantity %> x <%= pizza.topping %> </p>
+<hr/>
+
+<% end %>
+
